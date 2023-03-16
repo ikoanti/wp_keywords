@@ -1,0 +1,24 @@
+<?php
+/*
+Plugin Name: Add Keywords to Single Post
+Description: Adds meta tag for keywords to the head of a single post.
+Version: 1.0
+Author: Your Name
+*/
+
+// Add meta tag for keywords to the head of a single post
+function add_keywords_to_post_head() {
+    if (is_single()) {
+        $post_tags = get_the_tags();
+        if ($post_tags) {
+            $keywords = '';
+            foreach($post_tags as $tag) {
+                $keywords .= $tag->name . ', ';
+            }
+            $keywords = rtrim($keywords, ', ');
+            echo '<meta name="keywords" content="' . $keywords . '">';
+        }
+    }
+}
+add_action('wp_head', 'add_keywords_to_post_head');
+?>
