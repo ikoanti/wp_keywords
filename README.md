@@ -43,8 +43,12 @@ This plugin is released under the CC0 1.0 Universal (CC0 1.0) Public Domain Dedi
 Contributing
 
 Contributions are welcome! Feel free to submit issues or pull requests to improve the plugin.
+
 Support
 
 For support or inquiries, please open an issue in the [GitHub repository]([url](https://github.com/ikoanti/wp_keywords/issues)).
 
 Note: This plugin is provided as-is without any warranty. Use it at your own risk.
+
+![Screenshot 2025-02-14 173737](https://github.com/user-attachments/assets/1254a903-e4be-4076-abc9-7bde2ec61e03)
+
