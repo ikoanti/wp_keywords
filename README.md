@@ -2,11 +2,11 @@ WP Keywords Plugin
 
 It's important to note that adding meta keywords to your website's source code no longer influences SEO rankings. Search engines like Google have not used the meta keywords tag as a ranking factor for many years.
 
-However, if your boss or client still insists on adding meta keywords, the WP Keywords Plugin plugin can assist. This plugin allows you to add keywords <meta name="keywords"> tag for all of your published posts and adds them into your blog's meta tags.
+However, if your boss or client still insists on adding meta keywords, the WP Keywords Plugin can assist. This plugin allows you to add keywords <meta name="keywords"> tag for all of your published posts and adds them into your blog's meta tags.
 
-Please note that while WP Keywords can help in adding meta keywords, this practice does not impact your site's SEO performance. It's always best to focus on creating high-quality, relevant content and following current SEO best practices to improve your site's visibility in search engine results.
+Please note that while WP Keywords can help you add meta keywords, this practice does not impact your site's SEO performance. To improve your site's visibility in search engine results, it's always best to focus on creating high-quality, relevant content and following current SEO best practices.
 
-WP Keywords is a simple WordPress plugin that allows users to manually add meta keywords to the <head> section of individual posts. This gives users full control over the keywords assigned to each post, improving SEO customization.
+WP Keywords is a simple WordPress plugin allowing users to manually add meta keywords to individual posts' <head> section. This gives users full control over the keywords assigned to each post, improving SEO customization.
 Features
 
     Manual Meta Keywords Input: Allows users to manually enter meta keywords for each post.
