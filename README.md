@@ -1,4 +1,4 @@
-WP Keywords Plugin
+#WP Keywords Plugin
 
 It's important to note that adding meta keywords to your website's source code no longer influences SEO rankings. Search engines like Google have not used the meta keywords tag as a ranking factor for many years.
 
@@ -6,12 +6,16 @@ However, if your boss or client still insists on adding meta keywords, the WP Ke
 
 Please note that while WP Keywords can help you add meta keywords, this practice does not impact your site's SEO performance. To improve your site's visibility in search engine results, it's always best to focus on creating high-quality, relevant content and following current SEO best practices.
 
-WP Keywords is a simple WordPress plugin allowing users to manually add meta keywords to individual posts' <head> section. This gives users full control over the keywords assigned to each post, improving SEO customization.
-Features
+WP Keywords is a simple WordPress plugin allowing users to manually add meta keywords to individual posts' `<head>` section. This gives users full control over the keywords assigned to each post, improving SEO customization.
 
-    Manual Meta Keywords Input: Allows users to manually enter meta keywords for each post.
-    Seamless Integration: Adds a <meta name="keywords" content="your-keywords-here"> tag to the <head> section of single posts.
-    Lightweight & Efficient: The plugin is simple, with minimal impact on site performance.
+### Features
+- **Manual Meta Keywords Input**: Allows users to manually enter meta keywords for each post via a custom meta box.
+- **Automatic Fallback to Tags**: If no custom keywords are entered, the plugin automatically fetches and outputs the post's standard WordPress tags as keywords.
+- **Seamless Integration**: Adds a `<meta name="keywords" content="...">` tag to the `<head>` section of single posts.
+- **Custom Post Type Support**: The keywords meta box is dynamically supported across different post types with proper capability checks.
+- **Secure and Standardized**: Built using WordPress coding standards, featuring proper data sanitization, nonces for security, and prefixed functions to avoid conflicts.
+- **Translation Ready**: Fully prepared for localization using the `add-keywords-to-single-post` text domain.
+- **Lightweight & Efficient**: The plugin is simple, with minimal impact on site performance and no database queries running on autosaves.
 
 Installation
 
